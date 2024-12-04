@@ -9,7 +9,7 @@ use WillianDamasceno\SafePHP\Option;
  *
  * @implements \Option<T>
  */
-class Some implements Option
+class Some extends Option
 {
   public function __construct(
     /** @var T */

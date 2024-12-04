@@ -5,13 +5,13 @@ namespace WillianDamasceno\SafePHP;
 /**
  * @template T
  */
-interface Option
+abstract class Option
 {
-  public function isSome(): bool;
+  abstract public function isSome(): bool;
 
-  public function isNone(): bool;
+  abstract public function isNone(): bool;
 
-  public function unwrap(): mixed;
+  abstract public function unwrap(): mixed;
 
-  public function unwrapOr(mixed $or): mixed;
+  abstract public function unwrapOr(mixed $or): mixed;
 }

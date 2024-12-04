@@ -4,7 +4,7 @@ namespace WillianDamasceno\SafePHP\Option;
 
 use WillianDamasceno\SafePHP\Option;
 
-class None implements Option
+class None extends Option
 {
   public function isSome(): bool
   {

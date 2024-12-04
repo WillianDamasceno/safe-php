@@ -1,0 +1,16 @@
+{
+    "name": "willian-damasceno/safe-php",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "WillianDamasceno\\SafePHP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Willian Damasceno",
+            "email": "williandamascenoprofessional@gmail.com"
+        }
+    ],
+    "require": {}
+}
